@@ -1,0 +1,15 @@
+[package]
+name = "gasfee"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule = '0xfc397b5e79c4b8824023556e73ebc773c2abf7a9d44cdcd6c73681a094618464'
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
